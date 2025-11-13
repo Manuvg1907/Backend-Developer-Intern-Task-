@@ -442,7 +442,7 @@ docker-compose down
 ```env
 PORT=5000
 NODE_ENV=production
-MONGODB_URI=mongodb+srv://user:password@cluster.mongodb.net/dbname
+MONGODB_URI=Your db uri
 JWT_SECRET=your-very-long-random-secret-key-at-least-32-characters
 JWT_EXPIRE=7d
 ```
