@@ -586,8 +586,7 @@ VITE_ENV=production
 
 ```bash
 # MongoDB backup
-mongodump --uri "mongodb+srv://user:pass@cluster.mongodb.net/db" \
-  --out /backup/path/$(date +%Y%m%d)
+mongodump --uri "mongodb+srv:Enter your database location for backup
 
 # Schedule with cron
 0 2 * * * /path/to/backup.sh
