@@ -59,7 +59,7 @@ Complete guide for deploying the Secure REST API with React Frontend to producti
 
 4. **Connection String**
    ```
-   mongodb+srv://username:password@cluster.mongodb.net/dbname?retryWrites=true&w=majority
+   Your DB =majority
    ```
 
 ### MongoDB Local/Self-Hosted
